@@ -1,0 +1,281 @@
+/****************************** PRINCIPAL ********************************/
+body, html{
+    height: 100%;
+}
+/****************************** NAV ********************************/
+header{
+    color: #fff;
+}
+nav div.container div.collapse ul li a{
+    color: #fff;
+    transition: .3s;
+}
+nav div.container div.collapse ul li a:hover{
+    color: #ccc;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+header nav div.container button i{
+    color: #fff;
+}
+header nav a.navbar-brand i{
+    color: #fff;
+    font-size: 1.5em;
+}
+/****************************** SEÇÃO 1 ********************************/
+.secao-1{
+    background-image: url(./imagens/malasia.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-top: 250px;
+    border-bottom: 3px solid rgb(165, 160, 160);
+    height: 100%;
+}
+.divisor{
+    width: 1px;
+    background: #fff;
+    margin: 12px 15px;
+}
+.botao{
+    margin: 15px;
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    border-radius: 10px;
+    transition: .4s;
+}
+.botao:hover{
+    color: #d8d4d4;
+    border-color: #d8d4d4;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.botao-cadastro{
+    color: #000;
+    margin: 15px;
+    border: 3px solid #000;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: .4s;
+}
+.botao-cadastro i{
+    padding-top: 3px;
+}
+.botao-cadastro:hover{
+    color: rgb(58, 54, 54);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: rgb(58, 54, 54);
+}
+/***************************** SEÇÃO 2 *******************************/
+.secao-2{
+    padding-top: 125px;
+    background-color: #f1f1f1;
+    /*height: 101%;*/
+    border-bottom: 2px solid #ccc;
+}
+.sub-top{
+    margin-top: 50px;
+}
+.veja{
+    color: #000;
+    text-decoration: none;
+    transition: .5s;
+}
+.veja:hover{
+    color: rgb(73, 70, 70);
+    text-decoration: none;
+}
+.sub-top-2{
+    float: right;
+}
+/***************************** SEÇÃO 3 ********************************/
+.secao-3{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.secao-3 .borda{
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+/******************************* SEÇÃO 4 *********************************/
+.secao-4{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.img-1{
+    border-radius: 50px;
+    border: 7px solid #ccc;
+    height: 240px;
+}
+.veja-m{
+    color: #000;
+    font-style: italic;
+    transition: .4s;
+}
+.veja-m:hover{
+    color: rgb(65, 61, 61);
+    text-decoration: none;
+}
+/***************************** RODAPÉ **********************************/
+footer{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    border-top: 4px solid rgb(73, 71, 71);
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+footer a:hover{
+    color: #ccc;
+    text-decoration: none;
+}
+footer h4{
+    padding-top: 10px;
+}
+footer h6{
+    padding-bottom: 10px;
+}
+.borda{
+    border-bottom: 2px solid #fff;
+}
+.copy{
+    border-top: 2px solid #fff;
+}
+footer h5{
+    color: #fff;
+    font-size: 1.7em;
+}
+.redes{
+    float: left;
+}
+/***************************** MEDIA *******************************/
+/* Extra Small divices */
+@media(max-width: 575.98px){
+	.secao-1{
+        padding-top: 250px;
+    }
+    .secao-1 h3{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .secao-2{
+        /*height: 200%;*/
+        padding-bottom: 50px;
+    }
+    .secao-2 h1{
+        font-size: 2.8em;
+        font-weight: bold;
+    }
+    .secao-4{
+        padding-top: 0px;
+    }
+    .img-1{
+        margin-top: 50px;
+    }
+    a.redes{
+        padding: 10px;
+        font-size: 1.8em;
+    }
+}
+/* Small devices */
+@media(min-width: 576px) and (max-width: 567.98px){
+	.secao-1{
+        padding-top: 250px;
+    }
+    .secao-2 h1{
+        font-size: 2.8em;
+        font-weight: bold;
+    }
+    a.redes{
+        padding: 10px;
+        font-size: 1.8em;
+    }
+}
+/* Medium devices*/
+@media(min-width: 568px) and (max-width: 991.98px){
+	.secao-1{
+        padding-top: 360px;
+    }
+    h3.display-2{
+        font-size: 4.2em;
+        font-weight: bold;
+    }
+    .botao{
+        font-size: 1.7em;
+    }
+    .botao-cadastro{
+        font-size: 1.7em;
+    }
+    .secao-2{
+        padding-bottom: 70px;
+    }
+    .secao-3{
+        padding-bottom: 30px;
+    }
+    .imagem{
+        padding-top: 70px;
+    }
+    a.redes{
+        margin-top: 200px;
+        padding: 10px;
+        font-size: 1.7em;
+    }
+    a.redes i.fa-facebook{
+        margin-left: 100px;
+    }
+}
+/* Large devices */
+@media(min-width: 992px) and (max-width: 1199.98px){
+	.secao-1 h3{
+        font-size: 5.2em;
+        font-weight: bold;
+    }
+    .secao-2{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    a.redes{
+        font-size: 1.6em;
+        padding: 10px;
+        margin-top: 130px;
+    }
+    a.redes i.fa-facebook{
+        margin-left: 200px;
+    }
+}
+/* Extra Large devices */
+@media(min-width: 1200px){
+	.secao-1 h3{
+        font-size: 6.7em;
+        font-weight: bold;
+    }
+    .botao{
+        font-size: 1.3em;
+    }
+    .botao-cadastro{
+        font-size: 1.3em;
+    }
+    .secao-2{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    a.redes{
+        font-size: 1.6em;
+        padding: 10px;
+        margin-top: 130px;
+    }
+    a.redes i.fa-facebook{
+        margin-left: 300px;
+    }
+}
